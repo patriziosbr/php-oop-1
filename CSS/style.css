@@ -5,8 +5,25 @@
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
     padding: 16px;
 }
-.movie img {
-    height: 100px;
+
+.imgBox {
+    height: 150px;
+}
+.movie .imgBox img {
+    height: 100%;
+    width: 100%;
     display: block;
-    margin: auto;
+    object-fit: contain;
+}
+
+.movie .plot {
+    font-size: 12px;
+}
+.movie h2 {
+    font-size: 20px;
+}
+
+.movie h3,
+.movie h4 {
+    font-size: 14px;
 }
